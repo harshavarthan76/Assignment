@@ -1,0 +1,35 @@
+table {
+    margin: 0 auto;
+    font-size: large;
+    border: 1px solid black;
+}
+h1{
+    text-align: center;
+}
+
+td {
+    border: 1px solid black;
+}
+
+th,
+td {
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+td {
+    font-weight: lighter;
+}
+
+.desc{
+    width: 100px;
+    height:30px;
+    background-color: #82E0AA;
+}
+
+.desc, p{
+    display: inline-block;
+    vertical-align: middle;
+}
